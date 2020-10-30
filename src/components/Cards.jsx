@@ -19,8 +19,10 @@ const Cards = () =>{
         </div>    
     )
     return(
-        <div className="w-full">
+        <div className="w-screen h-screen  overflow-y-auto absolute inset-0">
+            <div >
             <h3 className="text-lg w-full bg-gray-700 text-white px-4">Our Products</h3>
+            </div>
             <div className="lg:grid grid-cols-4 m-auto flex flex-col justify-evenly items-center gap-4 lg:py-4 lg:px-4">    
             {allItems}
             </div>

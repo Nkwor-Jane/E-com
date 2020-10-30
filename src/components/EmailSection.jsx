@@ -4,7 +4,7 @@ import chanel from '../images/chanel.png'
 
 export const EmailSection = () => {
     return (
-        <div className="flex items-center justify-evenly flex-col py-4 px-2">
+        <div className="flex items-center justify-evenly flex-col py-4 px-2 relative w-screen">
             <div className="p-4">
                 <h3 className="text-3xl font-extrabold py-2 text-center ">Subcribe to Our newsletter</h3>
                 <p className="text-sm text-gray-700 pb-2">Get exciting details about flash sales,price slashes, promotions and new products</p>
@@ -14,9 +14,8 @@ export const EmailSection = () => {
             </div>
             </div>
 
-            <h1 className="text-3xl font-extrabold py-2 text-center">Trusted Partners</h1>
+            <h1 className="text-3xl font-extrabold py-2 text-center">Our Partners</h1>
             <div  className="p-4 flex lg:flex-row flex-col  lg:py-4">
-
             <img src={gucci} alt="Gucci" className="w-24 pr-2 py-4"/>
             <img src={chanel} alt="Chanel" className="w-24 py-4"/>
             

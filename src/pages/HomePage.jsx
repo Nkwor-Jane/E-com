@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 export const HomePage = () => {
     return (
-        <div>
+        <div className= "h-screen w-full relative">
            <Header/>
             <Cards/>  
             <EmailSection/>

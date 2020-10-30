@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <footer className=" lg:fixed  bg-gray-900 w-full flex flex-col items-center justify-between">
+        <footer className="p-4 bg-gray-900 w-full flex flex-col items-center justify-between absolute">
             <div className="lg:grid grid-cols-4 flex flex-col gap-4 lg:py-4 ">
                 <div className="py-4 text-gray-200 px-2">
                     <p className="text-lg cursor-pointer" >e-com</p>

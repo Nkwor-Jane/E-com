@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Header = () => {
     return (
-        <div className="overflow-hidden">
-            <header  className=" lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0  fixed shadow w-full">    
+        <div>
+            <header  className=" lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0  fixed  top-0 shadow w-full">    
                 <div className="flex-1 flex justify-between items-center">
                     <label htmlFor="menu-toggle" className="cursor-pointer lg:hidden block">
                         <svg viewBox="0 0 20 20" fill="currentColor" className="menu w-6 h-6 mt-1">
